@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  height: 100vh;
+  background-size: cover;
+}
+.headerContainer {
+  height: 15vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3367d6;
+  padding: 10px;
+}
+
+.historyImg {
+  height: 30px;
+  width: 120px;
+}
+
+.searchInputContainer {
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.searchImageStyle {
+  background-color: #2850a7;
+  width: 50px;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ececec;
+  border-radius: 4px;
+  padding-top: 2px;
+}
+
+.inputStyle {
+  height: 30px;
+  width: 100%;
+  background-color: #2850a7;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ececec;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.searchElementsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ececec;
+  background-size: cover;
+  height: 100vh;
+  padding: 40px;
+}
+.cardContainer {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 1px 14px 16px #ececec;
+  background-size: cover;
+  padding: 20px;
+  width: 80%;
+}
+.empty-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-element {
+  color: #64678b;
+  font-size: 20px;
+}

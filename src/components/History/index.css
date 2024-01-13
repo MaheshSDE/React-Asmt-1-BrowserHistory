@@ -1,0 +1,50 @@
+.listItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logoImg {
+  height: 30px;
+  width: 30px;
+}
+.timeAccessed {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #475569;
+  padding-right: 40px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #475569;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.domain {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
